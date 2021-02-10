@@ -50,7 +50,7 @@ func update():
 			font.add_texture(TextureToCut)
 			font.height = GlyphSize.y
 			for y in range(ty):
-				for x in range(tx+1):
+				for x in range(tx):
 					var l = 0
 					var character_width = GlyphSize.x
 					
